@@ -30,11 +30,3 @@ arr5 = [
 sorted_arr5 = sorted(arr5, key =lambda x: x["score"])
 print(arr5)
 print(sorted_arr5)
-# x = int(input("Enter X: "))
-
-# for i in range(len(arr)):
-#     if arr[i] == x:
-#         print("X is:", i)
-#         break
-#     else:
-#         print("Not arr[",i,"]")

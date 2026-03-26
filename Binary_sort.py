@@ -1,5 +1,5 @@
 arr = [3,1,5,7,2,9]
-
+# Cách 1
 x = int(input("Nhap so can tim: "))
 
 left = 0
@@ -18,4 +18,6 @@ while left <= right:
 else:
     print("Khong tim thay X")
 
+arr_new = sorted(arr)
+print(arr_new)
 
